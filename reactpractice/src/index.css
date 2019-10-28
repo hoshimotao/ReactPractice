@@ -26,6 +26,33 @@ h3{
   margin-left: 5vw;
 }
 
+.myInfo{
+  text-align: left;
+  width: 30vw;
+  margin-left: 2vw;
+}
+
+nav{
+  background-color: #8568f8;
+  box-shadow: 3px 3px 3px rgb(167, 190, 243);
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+
+.homeButton{
+    margin: 5px 0px 5px 10px;
+  }
+
+footer{
+  margin-left: -5vw;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
 
 
 
