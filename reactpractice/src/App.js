@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
+import MyInfo from "./MyInfo"
 
 function App() {
   return (
     <div className="App">
       
-      <ul>
-        <li> First list item </li>
-        <li> Second list item </li>
-        <li> Third list item </li>
-      </ul>
+      <MyInfo />
     </div>
   );
 }
