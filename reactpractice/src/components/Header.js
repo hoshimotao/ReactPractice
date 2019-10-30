@@ -4,7 +4,7 @@ export default class Header extends Component {
   render() {
     return (
       <nav>
-        <a href="/" className="homeButton"> Home </a>
+        <h1 className="titleName"> Jimmy Thomas </h1>
       </nav>
     )
   }
