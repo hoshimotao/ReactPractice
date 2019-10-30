@@ -6,16 +6,21 @@ import ReactDOM from 'react-dom'
 
 
 export default class Checkboxes extends Component {
-  render() {
 
-
-function onChange(){
-    var isChecked = document.getElementById("firstCheck").innerText
-
-    console.log(isChecked)
-}
-
+  state = {
+    boxChecked: false
+  }
   
+  
+  onChange(){ 
+    this.setState = () => {
+      boxChecked: true
+    }
+    }
+     
+
+
+  render() {
 
     return (
       <div>
